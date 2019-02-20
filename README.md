@@ -1,4 +1,6 @@
-# MyFirstApp
+# Making Http Requests
+
+![image](https://user-images.githubusercontent.com/2049888/53120673-bdc0bd80-3528-11e9-9b39-a4224828ed40.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
