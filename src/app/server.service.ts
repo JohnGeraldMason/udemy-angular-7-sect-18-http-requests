@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Headers, Http } from '@angular/http';
+import 'rxjs/Rx';
 
 @Injectable()
 export class ServerService {
