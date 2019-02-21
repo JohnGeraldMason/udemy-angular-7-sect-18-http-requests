@@ -27,6 +27,13 @@ export class AppComponent {
       id: this.generateId()
     });
   }
+  onSave() {
+    this.serverService.storeServers(this.servers)
+      .subscribe(
+        (response) => console.log(response),
+        (error) => console.log(error)
+      );
+  }
   private generateId() {
     return Math.round(Math.random() * 10000);
   }
